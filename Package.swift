@@ -8,15 +8,15 @@ let package = Package(
     ],
     products: [
         .library(
-            name: "analyticsKit",
-            targets: ["analyticsKit"]
+            name: "AnalyticsKit",
+            targets: ["AnalyticsKit"]
         )
     ],
     targets: [
         .binaryTarget(
-            name: "analyticsKit",
-            url: "https://github.com/ovicristurean/AnalyticsKit/releases/download/0.1.0/analyticsKit.xcframework.zip",
-            checksum: "cc14e57939bfb246694342e8d3159529736e9c59b0aa5c5327a5d2c5ca05fe53"
+            name: "AnalyticsKit",
+            url: "https://github.com/ovicristurean/AnalyticsKit/releases/download/0.1.1/AnalyticsKit.xcframework.zip",
+            checksum: "33c54f43872bd4a1d1eeb6b2b74d726610128e505906b355e36c722bbeb97de9"
         )
     ]
 )
