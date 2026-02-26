@@ -14,8 +14,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "AnalyticsKit",
-            url: "https://github.com/ovicristurean/Native-Android-to-KMP/releases/download/v0.2.2/AnalyticsKit.xcframework.zip",
-            checksum: "2f07c48a4ea7ad9a22dfe74681385afd0c61252a747a4e517554d6368a477ff3"
+            url: "https://github.com/ovicristurean/Native-Android-to-KMP/releases/download/v0.9.0/AnalyticsKit.xcframework.zip",
+            checksum: "677b7bb71ef6cd8ae62690341e7e00d11d3e69169ab519b61fa731c58c75b623"
         )
     ]
 )
