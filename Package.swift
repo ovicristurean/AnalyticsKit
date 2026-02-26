@@ -1,22 +1,21 @@
-// swift-tools-version:5.9
+// swift-tools-version:5.3
 import PackageDescription
 
 let package = Package(
     name: "AnalyticsKit",
     platforms: [
-        .iOS(.v14)
+        .iOS(.v13)
     ],
     products: [
         .library(
             name: "AnalyticsKit",
-            targets: ["AnalyticsKit"]
-        )
+            targets: ["AnalyticsKit"])
     ],
     targets: [
         .binaryTarget(
             name: "AnalyticsKit",
-            url: "https://github.com/ovicristurean/AnalyticsKit/releases/download/0.2.0/AnalyticsKit.xcframework.zip",
-            checksum: "33c54f43872bd4a1d1eeb6b2b74d726610128e505906b355e36c722bbeb97de9"
+            url: "https://github.com/ovicristurean/Native-Android-to-KMP/releases/download/v0.2.1/AnalyticsKit.xcframework.zip",
+            checksum: "0c6c2774c24857fcec1b77be5bb6917319090756c750d2152fe85fc6e2cee351"
         )
     ]
 )
